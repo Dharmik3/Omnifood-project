@@ -286,6 +286,9 @@ body {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+.grid--5-cols{
+  grid-template-columns: repeat(5,1fr);
+}
 .step-number {
   font-size: 8.6rem;
   font-weight: 600;
@@ -687,4 +690,11 @@ strong {
   /* outline: 4px doted #eb984e; */
   /* outline-offset: 8px; */
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+/* ******************* */
+
+/* footer */
+
+.footer{
+  padding: 9.6rem 0;
 }
