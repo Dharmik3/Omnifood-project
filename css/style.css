@@ -41,6 +41,7 @@ Greys :
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -48,6 +49,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 *:focus {
   outline: none;
@@ -104,6 +106,7 @@ body {
   background-color: #fdf2e9;
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 .logo {
   height: 2.2rem;
@@ -115,13 +118,13 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 .main-nav-link:link,
 .main-nav-link:visited {
   text-decoration: none;
   color: #333;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.8rem;
   transition: all 0.3s;
 }
@@ -141,6 +144,22 @@ body {
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
 }
+
+/* mobile */
+.btn-mobile-nav{
+  border: none;
+  background:none;
+  cursor: pointer;
+}
+.icon-mobile-nav{
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+.icon-mobile-nav[name="close-outline"]{
+display: none;
+}
+
 /* ***************************************** */
 /* hero ssection */
 
@@ -522,6 +541,7 @@ strong {
   border-radius: 11px;
   padding: 3.2rem;
   width: 75%;
+  line-height: 1.2;
 }
 .plan-header {
   text-align: center;
