@@ -48,7 +48,7 @@ const obs = new IntersectionObserver(
     if (ent.isIntersecting === false) {
       document.body.classList.add("sticky");
     }
-    if (ent.isIntersecting ) {
+    if (ent.isIntersecting) {
       document.body.classList.remove("sticky");
     }
   },
@@ -56,7 +56,7 @@ const obs = new IntersectionObserver(
     // in the viewport
     root: null,
     threshold: 0,
-    rootMargin:'-80px',
+    rootMargin: "-80px",
   }
 );
 obs.observe(sectionHeroEl);

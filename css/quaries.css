@@ -147,7 +147,6 @@
   }
 }
 
-
 /* fixing safari flexbox gap */
 .no-flexbox-gap .main-nav-list li:not(:last-child) {
   margin-right: 4.8rem;
@@ -237,47 +236,47 @@
   .grid--4-cols {
     grid-template-columns: 1fr;
   }
-  .section-hero{
-      padding: 2.4rem 0 6.4rem 0;
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
   }
-  .hero{
-      padding: 0 3.2rem;
+  .hero {
+    padding: 0 3.2rem;
   }
   .btn,
-.btn:link,
-.btn:visited{
+  .btn:link,
+  .btn:visited {
     padding: 2.4rem 1.6rem;
-}
-.hero-img{
+  }
+  .hero-img {
     width: 80%;
-}
-.logos img{
+  }
+  .logos img {
     height: 1.2rem;
-}
-.step-img-box:nth-child(2){
+  }
+  .step-img-box:nth-child(2) {
     grid-row: 1;
-}
-.step-img-box:nth-child(6){
+  }
+  .step-img-box:nth-child(6) {
     grid-row: 5;
-}
-.step-img-box{
+  }
+  .step-img-box {
     transform: translateY(2.4rem);
-}
-.testimonials{
+  }
+  .testimonials {
     grid-template-columns: 1fr;
-}
-.gallery{
-    grid-template-columns: repeat(4,1fr);
+  }
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.2rem;
-}
-.cta{
+  }
+  .cta {
     grid-template-columns: 1fr;
-}
-.cta-text-box{
+  }
+  .cta-text-box {
     padding: 3.2rem;
-}
-.cta-img-box{
+  }
+  .cta-img-box {
     height: 32rem;
     grid-row: 1;
-}
+  }
 }
